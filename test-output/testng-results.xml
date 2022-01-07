@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20840" started-at="2022-01-06T14:51:24Z" finished-at="2022-01-06T14:51:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20840" started-at="2022-01-06T14:51:24Z" finished-at="2022-01-06T14:51:45Z">
+      <class name="org.frametestng.ClassC">
+        <test-method status="PASS" signature="Firefoxbrowser(java.lang.String)[pri:0, instance:org.frametestng.ClassC@3327bd23]" name="Firefoxbrowser" duration-ms="9872" started-at="2022-01-06T14:51:35Z" finished-at="2022-01-06T14:51:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firefoxbrowser -->
+      </class> <!-- org.frametestng.ClassC -->
+      <class name="org.frametestng.ClassB">
+        <test-method status="PASS" signature="edgebrowserlaunch(java.lang.String)[pri:0, instance:org.frametestng.ClassB@a67c67e]" name="edgebrowserlaunch" duration-ms="5479" started-at="2022-01-06T14:51:29Z" finished-at="2022-01-06T14:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edgebrowserlaunch -->
+      </class> <!-- org.frametestng.ClassB -->
+      <class name="org.frametestng.ClassA">
+        <test-method status="PASS" signature="chromelaunch(java.lang.String)[pri:0, instance:org.frametestng.ClassA@21213b92]" name="chromelaunch" duration-ms="5439" started-at="2022-01-06T14:51:24Z" finished-at="2022-01-06T14:51:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromelaunch -->
+      </class> <!-- org.frametestng.ClassA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
