@@ -15,8 +15,7 @@ public class ClassA {
 WebDriverManager.chromedriver().setup();
 WebDriver driver = new ChromeDriver();
 driver.get(url);
-		
-		
+System.out.println("Facebook login");
 		
 	}
 
